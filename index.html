@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Audio Player</title>
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.8.4/plyr.css" />
+</head>
+<body>
+  <h1>Sermoning</h1>
+  <p>This is a player test.</p>
+  <p>Below is the new player which is meant to replace Vidstack.</p>
+  <audio id="player" controls>
+    <source src="https://sequelsermon.com/f002/file/grace-fellowship-files/Sermons/WJ%20-%20Confidence%20in%20Christ%20-%202026-05-31.mp3" type="audio/mp3" />
+  </audio>
+
+  <script src="https://cdn.plyr.io/3.8.4/plyr.js"></script>
+  <script>
+    const player = new Plyr('#player');
+  </script>
+</body>
+</html>
